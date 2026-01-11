@@ -1,13 +1,13 @@
-<svg width="220" height="120" viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Solid black I + neon green G + solid black B - all in one text element -->
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Single text block with tight spacing (negative letter-spacing for touching) -->
   <text 
-    x="110" 
+    x="100" 
     y="90" 
     font-family="Bebas Neue, Impact, Arial Black, sans-serif" 
     font-size="100" 
     font-weight="900" 
     text-anchor="middle" 
-    letter-spacing="4"> <!-- Adjust this number for perfect visual balance -->
+    letter-spacing="-12">  <!-- Negative value makes letters touch tightly -->
     <tspan fill="#000000">I</tspan>
     <tspan fill="#00FF88">G</tspan>
     <tspan fill="#000000">B</tspan>
