@@ -1,40 +1,15 @@
-<svg width="240" height="120" viewBox="0 0 240 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Solid black I (left) -->
+<svg width="220" height="120" viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid black I + neon green G + solid black B - all in one text element -->
   <text 
-    x="60" 
+    x="110" 
     y="90" 
     font-family="Bebas Neue, Impact, Arial Black, sans-serif" 
     font-size="100" 
     font-weight="900" 
-    fill="#000000" 
     text-anchor="middle" 
-    letter-spacing="0">
-    I
-  </text>
-
-  <!-- Solid neon green G (center) -->
-  <text 
-    x="120" 
-    y="90" 
-    font-family="Bebas Neue, Impact, Arial Black, sans-serif" 
-    font-size="100" 
-    font-weight="900" 
-    fill="#00FF88" 
-    text-anchor="middle" 
-    letter-spacing="0">
-    G
-  </text>
-
-  <!-- Solid black B (right) -->
-  <text 
-    x="180" 
-    y="90" 
-    font-family="Bebas Neue, Impact, Arial Black, sans-serif" 
-    font-size="100" 
-    font-weight="900" 
-    fill="#000000" 
-    text-anchor="middle" 
-    letter-spacing="0">
-    B
+    letter-spacing="4"> <!-- Adjust this number for perfect visual balance -->
+    <tspan fill="#000000">I</tspan>
+    <tspan fill="#00FF88">G</tspan>
+    <tspan fill="#000000">B</tspan>
   </text>
 </svg>
